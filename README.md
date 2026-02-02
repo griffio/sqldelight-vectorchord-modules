@@ -12,6 +12,8 @@ SqlDelight VectorChord Modules
 
 https://github.com/tensorchord/VectorChord
 
+https://github.com/tensorchord/VectorChord-bm25
+
 https://docs.vectorchord.ai/
 
 ## Usage
