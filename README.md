@@ -10,11 +10,9 @@ Use with SqlDelight `2.2.1`
 
 SqlDelight VectorChord Modules
 
-https://github.com/tensorchord/VectorChord
+https://github.com/griffio/sqldelight-vectorchord-module-app
 
-https://github.com/tensorchord/VectorChord-bm25
-
-https://docs.vectorchord.ai/
+https://github.com/griffio/sqldelight-bm25-module-app
 
 ## Usage
 
