@@ -2,12 +2,10 @@ CREATE EXTENSION IF NOT EXISTS vchord CASCADE;
 CREATE EXTENSION IF NOT EXISTS pg_tokenizer CASCADE;  -- for tokenizer
 CREATE EXTENSION IF NOT EXISTS vchord_bm25 CASCADE;   -- for bm25 ranking
 
-SET search_path TO tokenizer_catalog;
+SET search_path TO 'tokenizer_catalog, bm25_catalog';
 
 SELECT create_tokenizer('bert', 'model = "bert_base_uncased"');
 SELECT create_tokenizer('tocken', 'model = "wiki_tocken"');
-
-SET search_path TO bm25_catalog;
 
 CREATE TABLE Documents (
     id BIGINT GENERATED ALWAYS AS IDENTITY,
